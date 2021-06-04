@@ -1,0 +1,2 @@
+#include <iostream> 
+using namespace std;int main(){string input;cout<<"What do you want to encode\n";cin>>input;cout<<"Enter the amount you want to shift\n";int input2;cin>>input2;cout<<"your word is "<<input<<".\n";}

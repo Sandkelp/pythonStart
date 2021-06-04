@@ -1,0 +1,8 @@
+spotify_token = "BQCO5v0YEp-pF_IewKtu0faKEncpzDOSQ7MTpiDsMdMbNHvPmrE6jxHksbPv3yLnd5U-bLgjdTTwHlLoJQqeQEZyiPGvb0Qov-hYtJHx3ER1vc4Bv-2g5gOhELZQcwmR-d21N_rGghixgi2PvljBrEPIX3AVdWAjoboe_Jch5DyEmAmkkJCV3ciy0r7I0tQ32zoF1HfXm-0VXga2jcgIRQ6RjLogwTUK_FeOZfS41nXjlg3RwUPDD6q-1b0xjP4P"
+spotify_user_id = "1805d978e72b4d11820d6dfc1dd19823"
+
+spotify_client_secret = '89b64947df0840a2817ae4dd208ab1c8'
+
+https://accounts.spotify.com/authorize?client_id=1805d978e72b4d11820d6dfc1dd19823&response_type=code&redirect_url=https%3A%2F%2Fdevelopers.google.com%2Fyoutube%2Fregistering_an_application
+
+curl -H "Authorization: Basic MTgwNWQ5NzhlNzJiNGQxMTgyMGQ2ZGZjMWRkMTk4MjM6ODliNjQ5NDdkZjA4NDBhMjgxN2FlNGRkMjA4YWIxYzg=" -d grant_type=authorization_code -d code=AQD-03679NJ7-Eqf-E7nuNJEP3_yiMix-Wm38NNWdGe0OrWdiqRWdiDf0gyn5PujcFxT7njD75c18BHTxdqbsMDSXDAwtF1OE9vJG-C7VXe62-k3dmurJxx9bb1AQqlLYfV82-9ueMQgc99XKjY3TLwQd_T5TenGnA13dwheS_sBTBxPysEc3oM52BK55DOkZZO_SuDRUvZ8zl69OTce-AbqbO4 -d redirect_uri=https%3A%2F%2Fdevelopers.google.com%2Fyoutube%2Fregistering_an_application https://accounts.spotify.com/api/token

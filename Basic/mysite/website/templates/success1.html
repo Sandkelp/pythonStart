@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> Data Collector App</title>
+    <head>
+        <link href="../static/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Thank you for your submisson</h1>
+            <h3>The coordiantes for {{ addy }}: ({{lan_coor}} , {{lon_coor}})</h3>    
+            <form action="{{url_for('home')}}" method="Post">
+                <button type="link"> Get Coordinates of Another Location </button>
+            </form>
+        </div>    
+        </body>
+</html>
